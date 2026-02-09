@@ -38,6 +38,7 @@ elif st.session_state.step == 2:
 # Final page
 elif st.session_state.step == 3:
     st.success("Survey Complete! On behalf of the University of Manitoba's Most Beautiful Girl's Boyfriend (UMMBGB), we thanks for expressing an interest in learning about penguins! Here is a summary of your answers:")
-    st.write("Species:", st.session_state.species)
+    st.write("Species:", st.session_state.favSpecies)
     st.write("Location:", st.session_state.location)
+
 
