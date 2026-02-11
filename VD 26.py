@@ -46,7 +46,7 @@ elif st.session_state.step == 2:
 # Q3
 elif st.session_state.step == 3:
     classification = st.selectbox(
-        "What are birds classified as?",
+        "What are penguins classified as?",
         ["Mammals", "Birds", "Fish", "Reptiles"]
     )
 
@@ -289,6 +289,7 @@ elif st.session_state.step == 18:
 elif st.session_state.step == 19:
     st.success("You have reached the end of the survey.")
     st.write("On behalf of the Myka is So Pretty Society- I mean, the Major Search for Penguins Society, thank you for taking the time to answer our questions!")
+
 
 
 
