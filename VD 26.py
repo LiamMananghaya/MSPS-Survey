@@ -290,12 +290,9 @@ elif st.session_state.step == 18:
 
 # Final page
 elif st.session_state.step == 19:
-    st.success("")
-    st.write("What is your favorite species of penguins?", st.session_state.favSpecies)
-    st.write("Where do you think your favorite species of penguins are commonly located?", st.session_state.location)
-    st.write("What are birds classified as?", st.session_state.classification)
-    st.write("What do penguins primarily eat?", st.session_state.food)
-    st.write("Do all penguins live in warm climates?", st.session_state.climate)
+    st.success("You have reached the end of the survey.")
+    st.write("On behalf of the Myka is So Pretty Society- I mean, the Major Search for Penguins Society, thank you for taking the time to answer our questions!")
+
 
 
 
